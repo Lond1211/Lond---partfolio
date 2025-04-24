@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background: transparent;
+    background-color: rgb(5, 3, 3);
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+header {
+    background-color: rgb(5, 3, 3);
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    color :rgb(255, 255, 255);
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(230, 120, 120, 0.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    font-family : 'Special Gothic Expanded One', sans-serif;
+    color : rgb(255, 255, 255);
+    flex : 1; 
+    padding : 20px;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+aside {
+    background: transparent;
+    margin: 20;
+    padding: 20px;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    text-align: left;
+    margin-top : 40px;
+    color: white;    
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    margin: 20;
+    color: white;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    text-align: center;
+}
+
+.linksonside a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.linksonside a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  
+  
+  
+  @keyframes gradientMove {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    80%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+.shapka a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.shapka a:hover {
+    transform: scale(1.03);
+    color: #fff; 
+}
+
+.shapka_menu ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 10%;
+    justify-content: center; 
+    animation: colorFlowMenu 12s infinite linear;
+}
+
+.shapka h1 {
+    font-size: 2em;
+    background: linear-gradient(45deg, #00f, #0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    transition: transform 0.3s ease;
+  }
+  
+  .shapka h1:hover {
+    transform: scale(1.05);
+  }
+
+
+#bg-video_black {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 1;
+  }
+
+.imagelip {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.imagelip img {
+    height: auto;
+    border-radius: 15px;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.imagelip img:hover {
+    transform: scale(1.6);
+  }
+
+  @media screen and (max-width: 768px) {
+    .main-section {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .shapka {
+      font-size: 1.5em;
+      letter-spacing: 5px;
+    }
+  
+    .shapka_menu ul {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0;
+    }
+  
+    .imagelip {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .imagelip img {
+      width: 80%;
+    }
+  
+    .welcometext {
+      font-size: 18px;
+    }
+  
+    .grid-project-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    header {
+      position: relative;
+    }
+  
+    footer {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .contacts-section img {
+      width: 20px;
+    }
+  
+    .clock {
+      font-size: 16px;
+    }
+  }
