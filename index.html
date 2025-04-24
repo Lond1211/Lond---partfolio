@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lond partfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="img/L-logo.png" type="image/png">
+</head>
+<body>
+  <div class="wrapper">
+    <video autoplay muted loop id="bg-video_black">
+      <source src="video/black_bg.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <header>
+      <div class="shapka"><a href="#" onclick="showContent('welcome')">LOND PARTFOLIO</a></div>
+      <div class="shapka_menu">
+        <ul>
+          <li><a href="#" onclick="showContent('info')">ИНФОРМАЦИЯ</a></li>
+          <li><a href="#" onclick="showContent('skills')">НАВЫКИ</a></li>
+          <li><a href="#" onclick="showContent('projects')">ПРОЕКТЫ</a></li>
+          <li><a href="#" onclick="showContent('goals')">ЦЕЛИ</a></li>
+          <li><a href="#" onclick="showContent('contacts')">КОНТАКТЫ</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!--WELCOME PAGE-->
+    <div id="welcome" class="main-section">
+      <div class="welcome">
+        <h1>Добро пожаловать</h1>
+        <div class="welcometext">
+        </div>
+        <p>Приветствую, меня зовут Вадим, мне 16! Я самоучка, веб разработчик из Украины! Больше информации обо мне и моих проектах вы можете найти в этом портфолио.</p>
+      </div>
+      <div class="imagelip">
+        <img src="img/lond1.jpg" alt="selfie_lond3"/>
+      </div>
+    </div>
+
+    <!--INFO PAGE-->
+
+    <div id="info" class="main-section" style="display:none;">
+      <div class="info-section">
+        <h1>информация</h1>
+        <p>Привет! Меня зовут Вадим, но чаще меня называют Лонд. Мне 16лет, я родился в украине и на данный момент проживаю в ней. Оканчиваю 11класс и планирую поступать за границу.</p>
+        <p>Здесь я больше хочу рассказать о себе как личности.</p>
+        <p>Я тот, кто любит общаться с людьми, в особености если есть общая задача. Мне нравиться создавать колективный проект где каждый предлогает свою идею и все вместе могут её обдумать. Я ценю честность, креативность и результаты превыше всего. Если вы объясните все четко и уважительно, я с радостью приму критику и извлеку из нее урок. </p>
+        <p>Я ленивый по-умному — я всегда ищу наиболее эффективное решение с наименьшими усилиями. Мне не нравится иметь слишком много свободного времени, потому что я часто трачу его на игры, поэтому мне нравится, когда меня «заставляют» работать — это дает мне цель и структуру</p>
+        <p>В команде я предпочитаю быть лидером или брать на себя ответственность. Если я не могу что-то четко объяснить, я сделаю это сам, а не буду смотреть, как другие борются. Я уважаю честность, преданность и взаимную поддержку в командной работе, и меня вдохновляют хорошие идеи, замечательные люди и значимые проекты</p>
+        <p> управлять компанией, автоматизировать работу и создать источник пассивного дохода, оставаясь при этом добрым и приземленным. Я верю в перемены и быстро адаптируюсь. Если что-то не работает, я всегда первый предлагаю решение.</p>
+        <p>В конце концов, я просто хочу наслаждаться жизнью, когда-нибудь стать прекрасным отцом и гордиться тем человеком, которым я стал.</p>
+      </div>
+    </div>
+
+    <!--SKILLS PAGE-->
+
+    <div id="skills" class="main-section" style="display:none;">
+      <h1>Навыки</h1>
+      <p>У меня пока нет серьезных навыков программирования, но я быстро учусь, особенно на практике и когда у меня есть цель. Сейчас я умею программировать на HTML+CSS, JavaScript и базовом Python</p>
+    </div>
+
+    <!--PROJECTS PAGE-->
+
+    <div id="projects" class="main-section" style="display:none;">
+      <h1>Проекты</h1>
+      <p>вот мои недавние проекты:</p>
+      <div class="project-list">
+        <ul class="grid-project-list">
+          <li><a href="#">In future 1</a></li>
+          <li><a href="#">In future 2</a></li>
+          <li><a href="#">In future 3</a></li>
+          <li><a href="#">In future 4</a></li>
+          <li><a href="#">In future 5</a></li>
+          <li><a href="#">In future 6</a></li>
+          <li><a href="#">In future 7</a></li>
+          <li><a href="#">In future 8</a></li>
+          <li><a href="#">In future 9</a></li>
+        </ul>
+        <div class="github-profile">
+          <p>Также ты можешь зайти на мой <a href="https://github.com/users/Lond1211/projects/1/views/1" target="_blank">профиль на GitHub</a>!</p></div>
+        </div>
+    </div>
+
+     <!--GOALS PAGE-->
+
+    <div id="goals" class="main-section" style="display:none;">
+      <div class="goals-section">
+        <h1>Цели</h1>
+    </div>
+    <p>Моя цель — стать опытным веб-разработчиком полного цикла с прочной базой знаний в области как фронтенд-, так и бэкенд-технологий, а затем постепенно перейти в сферу машинного обучения.
+        Чтобы добиться этого, я составил четкую и структурированную 6-месячную дорожную карту:
+      <p>Месяцы 1–2:
+        Я начинаю с изучения основ — HTML, CSS, Git и GitHub — и создаю сайт-портфолио с формой обратной связи. Затем я погружаюсь в основы JavaScript и манипуляции DOM, создавая интерактивную веб-страницу.</p>
+      <p>Месяцы 2–3:
+        Я углубляю свое понимание JavaScript и изучаю React, применяя его на сайте To-Do или Movie. Затем я работаю с React Router, Tailwind CSS и внешними API, создавая приложение React, которое извлекает данные из внешних сервисов.</p>
+      <p>Месяцы 3–4:
+        Я переключаю фокус на разработку бэкенда — изучаю Python, FastAPI и SQL — и создаю бэкенд-проект с базой данных. Затем я перехожу к аутентификации JWT, SQLAlchemy и API фронтенда, создавая блог или менеджер задач. После этого я интегрирую Axios, аутентификацию пользователей и базовый Docker, в результате чего получается полнофункциональное приложение.</p>
+      <p>Месяцы 4–5:
+        Я изучаю, как развертывать frontend и backend приложения с помощью Vercel и Render. Затем я начинаю работать с Python для анализа данных, используя pandas и matplotlib для создания диаграмм и анализа данных.</p>
+      <p>Месяцы 5–6:
+        Я погружаюсь в машинное обучение, начиная с scikit-learn и алгоритмов машинного обучения, и создаю модель машинного обучения для прогнозирования. Затем я интегрирую эту модель в FastAPI, чтобы создать API на основе машинного обучения, и, наконец, объединяю ее с интерфейсом, чтобы создать полноценное веб-приложение ИИ для анализа текста.</p>
+    </div>
+
+    <!--CONTACTS PAGE-->
+
+    <div id="contacts" class="main-section" style="display:none;">
+      <div class="contacts-section">
+          <h1>Контакты</h1>
+          <p>
+            Ты можешь написать мне в:
+            <a href="https://t.me/londraghe" class="telegram-link" target="_blank" rel="noopener noreferrer">
+              <img src="img/contact_logo/Telegram_Messenger.png" alt="Telegram" class="icon" />Telegram
+            </a>
+            <a href="https://discord.gg/your-link" class="discord-link" target="_blank" rel="noopener noreferrer">
+              <img src="img/contact_logo/dis_logo.png" alt="Discord" class="icon" />Discord
+            </a>
+          </p>
+          <p>Если нужен быстрый ответ — пиши в Telegram или Discord</p>
+          <p>Также можно написать на почту: londraghe@gmail.com</p>
+        </div>
+    </div>
+  </main>
+
+    <aside>
+      <div></div>
+    </aside>
+
+    <footer>
+      Copyright © 2025 Lond
+    </footer>
+  </div>
+<script src="js/script.js"></script>
+</body>
+</html>
